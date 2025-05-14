@@ -4,7 +4,7 @@ const Navbar: React.FC = () => {
     return (
         <nav className="bg-white border-gray-200 fixed top-0 left-0 z-50 w-full">
             <div className="w-full flex flex-wrap items-center justify-between p-4">
-                <Link href="/fikaplan" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <Link href="/pageone" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
                 </Link>

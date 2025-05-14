@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-64 pt-10 pb-20">
         <div>
-          <Link href="/Pageone">
+          <Link href="/pageone">
             <Image className="h-auto max-w-full rounded-lg" src={portfolioImage} alt="" />
           </Link>
         </div>

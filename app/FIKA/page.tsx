@@ -9,12 +9,13 @@ const FIKA: React.FC = () => {
     return (
         <div className="bg-white min-h-screen">
             <Navbar />
-            <div className="py-20 grid grid-cols-1 gap-6 sm:grid-cols-3 mx-2">
-                <p className="mb-3 text-gray-500 dark:text-gray-400">one</p>
-                <p className="mb-3 text-gray-500 dark:text-gray-400">
-                    <Image className="h-80 w-80" src={fikaSection} alt="" />
+            <div className="flex flex-row items-center justify-center">
+                <p className="inline-flex">
+                    <Image className="max-w-full " src={fikaSection} alt="" />
                 </p>
-                <p className="mb-3 text-gray-500 dark:text-gray-400">three</p>
+            </div>
+            <div className="flex justify-center items-center p-4">
+                <p>test</p>
             </div>
             <Footer />
         </div>

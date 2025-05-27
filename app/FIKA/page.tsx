@@ -2,7 +2,6 @@ import "../.styles/globals.css";
 import Image from "next/image";
 import Navbar from "@/app/.components/navbar";
 import Footer from "@/app/.components/footer";
-import Link from "next/link";
 import fikaSection from "@/app/.images/fika-section-perspective.png";
 
 const FIKA: React.FC = () => {

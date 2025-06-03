@@ -13,8 +13,17 @@ const FIKA: React.FC = () => {
                     <Image className="max-w-full " src={fikaSection} alt="" />
                 </p>
             </div>
-            <div className="flex justify-center items-center p-4">
-                <p>test</p>
+            <div className="pb-30 px-40 py-10">
+                <div>
+                    <p>FIKA Cafe</p>
+                    <p>Drawing Exercise</p>
+                    <p>2023</p>
+                    <br />
+                </div>
+                <div>
+                    <p>28 Kensington Avenue</p>
+                    <p>Section Perspective, drawn in Rhino3D and Adobe Illustrator</p>
+                </div>
             </div>
             <Footer />
         </div>

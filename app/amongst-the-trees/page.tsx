@@ -18,16 +18,16 @@ const AmongstTrees: React.FC = () => {
                     <p>How to Design Almost Anything</p>
                     <p>Spring 2024, Studio</p>
                     <br />
-                    <p>Site: Queen's Park</p>
+                    <p>Site: Queen&apos;s Park</p>
                 </div>
                 <div>
                     <p>Project Brief</p>
                     <br />
-                    <p>Informed by Queens Park's historical conflict between its character as a site for political activity and 
+                    <p>Informed by Queens Park&apos;s historical conflict between its character as a site for political activity and 
                         a site for relaxation, in large part due to the imposing presence of the Ontario Legislative Building, this 
                         proposal aims to support the usage of the park as a space for mental repose, tranquility and calmness. Users 
                         are encouraged to engage in quiet, intimate conversations with themselves, or in small numbers, enhanced by 
-                        the intervention's separation from the surrounding urban environment.</p>
+                        the intervention&apos;s separation from the surrounding urban environment.</p>
                     <p>Form</p>
                     <br />
                     <p>This proposal aims to emulate the density of a natural forest amongst the existing flat topography through the 
@@ -74,7 +74,7 @@ const AmongstTrees: React.FC = () => {
                     <Image className="max-w-full " src={amongstTrees05} alt="" />
                 </p>
             </div>
-            <div className="py-10 px-60">
+            <div className="pb-30 py-10 px-60">
                 <p>This intervention can be proposed for parks across Toronto, unifying its green spaces under a single common design 
                     language. However, further individual site studies must be conducted to ensure the appropriateness of such an 
                     intervention across various parks and their unique cultural environments.  Various modules can feature circular 

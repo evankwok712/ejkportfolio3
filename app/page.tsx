@@ -30,32 +30,32 @@ export default function Home() {
           </Link>
         </div>
         <div>
-          <Link href="/amongst-the-trees">
+          <Link href="/blob-complex">
             <Image className="h-80 w-80" src={blobThumbnail} alt="" />
           </Link>
         </div>
         <div>
-          <Link href="/amongst-the-trees">
+          <Link href="/bloor-st-enhancement">
             <Image className="h-80 w-80" src={mirvishThumbnail} alt="" />
           </Link>
         </div>
         <div>
-          <Link href="/amongst-the-trees">
+          <Link href="/in-the-canopy">
             <Image className="h-80 w-80" src={canopyThumbnail} alt="" />
           </Link>
         </div>
         <div>
-          <Link href="/amongst-the-trees">
+          <Link href="/to-tie">
             <Image className="h-80 w-80" src={tieThumbnail} alt="" />
           </Link>
         </div>
         <div>
-          <Link href="/amongst-the-trees">
+          <Link href="/vessels-and-their-contents">
             <Image className="h-80 w-80" src={vesselThumbnail} alt="" />
           </Link>
         </div>
         <div>
-          <Link href="/amongst-the-trees">
+          <Link href="/film-gallery">
             <Image className="h-80 w-80" src={placeHolder} alt="" />
           </Link>
         </div>

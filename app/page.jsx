@@ -8,6 +8,7 @@ import tieThumbnail from "@/app/.thumbnails/tie-thumbnail.png";
 import vesselThumbnail from "@/app/.thumbnails/vessels-thumbnail.jpg";
 import mirvishThumbnail from "@/app/.thumbnails/mirvish-thumbnail.png";
 import blobThumbnail from "@/app/.thumbnails/blob-thumbnail.png";
+import portfolio from "@/app/.thumbnails/Portfolio.pdf";
 import Navbar from "@/app/.components/navbar";
 import Footer from "@/app/.components/footer";
 import Link from "next/link";
@@ -16,10 +17,10 @@ export default function Home() {
     <div className="bg-white min-h-screen">
       <Navbar />
       <div className="flex justify-center items-center pt-30 px-60">
-        <p>Hi! Welcome to my website. Please excuse its appearance while I build it :)</p>
+        <p>Hi! Welcome to my website. Please excuse its appearance while I build it</p>
       </div>
       <div>
-        <iframe src="Portfolio.pdf" width="100%" height="600px"></iframe>
+        <iframe src={portfolio} width="100%" height="600px"></iframe>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-60 pt-30 pb-30">
         <div>

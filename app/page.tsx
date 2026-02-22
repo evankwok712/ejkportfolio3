@@ -18,6 +18,9 @@ export default function Home() {
       <div className="flex justify-center items-center pt-30 px-60">
         <p>Hi! Welcome to my website. Please excuse its appearance while I build it :)</p>
       </div>
+      <div>
+        <iframe src="Portfolio.pdf" width="100%" height="600px"></iframe>
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-60 pt-30 pb-30">
         <div>
           <Link href="/FIKA">
